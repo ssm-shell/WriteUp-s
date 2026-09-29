@@ -10,9 +10,8 @@
 > недоступной обычным пользователям, и извлечь из неё флаг.
 
 **Target:** `62.173.140.174:16250`
-**Flag:** `CODEBY{h1dd3n_pr0gram_l34ked_via_st0len_tr14ger_c00k1e}`
 
-## TL;DR
+## About
 
 КороваББ — клон HackerOne/Bugcrowd. Каждый отправленный отчёт открывает
 headless-браузер под служебной учёткой `triager`, которая рендерит Markdown
