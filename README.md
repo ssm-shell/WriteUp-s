@@ -229,11 +229,6 @@ Content-Disposition: (отсутствует)          ← нет "attachment", 
 </script>
 ```
 
-(Полный рабочий вариант этого скрипта здесь намеренно не публикуется как
-готовый to-run инструмент — самого механизма выше достаточно, чтобы
-воспроизвести атаку руками через DevTools за пару минут, а инструмент,
-автоматически ворующий сессию бота, не то, что стоит класть в публичный
-репозиторий без дополнительных предохранителей.)
 
 ## 3. Attack chain
 
@@ -351,20 +346,3 @@ CODEBY{h1dd3n_pr0gram_l34ked_via_st0len_tr14ger_c00k1e}
   имя программы, но не видно тело) — часто это самый быстрый способ найти
   скрытую сущность без единого эксплойта.
 
-## References
-
-Методика и структура этого writeup ориентировались на общепринятые практики
-сообщества:
-
-- [How to write a good writeup — p≈np team cheatsheet](https://pequalsnp-team.github.io/cheatsheet/writing-good-writeup)
-- [siunam321 — idekCTF 2024 "Hello" (XSS → bot cookie steal)](https://siunam321.github.io/ctf/idekCTF-2024/web/Hello/)
-- [Project Sekai CTF — official writeups repo](https://github.com/project-sekai-ctf/sekaictf-2024)
-- [Huli's blog — corCTF & SekaiCTF writeups](https://blog.huli.tw/2024/09/23/en/hitconctf-corctf-sekaictf-2024-writeup/)
-- OWASP Cheat Sheet Series — [XSS Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html), [HTML5 Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html)
-
-## Disclaimer
-
-Материал подготовлен в рамках прохождения учебного/соревновательного CTF
-(авторизованная цель, задание CODEBY CTF). Все описанные техники применимы
-только к явно авторизованным целям (CTF, собственная лаборатория, программы
-bug bounty в рамках их scope).
