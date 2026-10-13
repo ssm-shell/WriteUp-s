@@ -10,3 +10,5 @@
 - [Writeup-authorization2.0](./Writeup-authorization2.0)
 - [Writeup-Hackertube2](./Writeup-Hackertube2)
 - [Writeup-quiet-till](./Writeup-quiet-till)
+- [Writeup-filled-mind](./Writeup-filled-mind)
+- [Writeup-pervaya-krov](./Writeup-pervaya-krov)
